@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90AF7236A9D2E69FB89FD4E5 /* Pods_AsunNetWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EC28B006A6853AE1606045A /* Pods_AsunNetWork.framework */; };
+		94E25655227045FB00EA2269 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E25654227045FB00EA2269 /* AppDelegate.swift */; };
+		94E2565C227045FC00EA2269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94E2565B227045FC00EA2269 /* Assets.xcassets */; };
+		94E2566C2270468B00EA2269 /* ResponseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E256672270468B00EA2269 /* ResponseResult.swift */; };
+		94E2566D2270468B00EA2269 /* AsunNetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E256682270468B00EA2269 /* AsunNetWorkManager.swift */; };
+		94E2566E2270468B00EA2269 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E256692270468B00EA2269 /* Response.swift */; };
+		94E2566F2270468B00EA2269 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E2566A2270468B00EA2269 /* Request.swift */; };
+		94E256702270468B00EA2269 /* AsunRequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E2566B2270468B00EA2269 /* AsunRequestProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24AD5FBBF53FF884B9343B0E /* Pods-AsunNetWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsunNetWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-AsunNetWork/Pods-AsunNetWork.release.xcconfig"; sourceTree = "<group>"; };
+		3EC28B006A6853AE1606045A /* Pods_AsunNetWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AsunNetWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94E25651227045FB00EA2269 /* AsunNetWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsunNetWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94E25654227045FB00EA2269 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94E2565B227045FC00EA2269 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94E25660227045FC00EA2269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94E256672270468B00EA2269 /* ResponseResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseResult.swift; sourceTree = "<group>"; };
+		94E256682270468B00EA2269 /* AsunNetWorkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsunNetWorkManager.swift; sourceTree = "<group>"; };
+		94E256692270468B00EA2269 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		94E2566A2270468B00EA2269 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		94E2566B2270468B00EA2269 /* AsunRequestProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsunRequestProtocol.swift; sourceTree = "<group>"; };
+		D0F74E2A128D436460646862 /* Pods-AsunNetWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsunNetWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AsunNetWork/Pods-AsunNetWork.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94E2564E227045FB00EA2269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AF7236A9D2E69FB89FD4E5 /* Pods_AsunNetWork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46EEE8D5BCC2F1ED6196272B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0F74E2A128D436460646862 /* Pods-AsunNetWork.debug.xcconfig */,
+				24AD5FBBF53FF884B9343B0E /* Pods-AsunNetWork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E6D9FB6A16613651F3E1B7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EC28B006A6853AE1606045A /* Pods_AsunNetWork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94E25648227045FB00EA2269 = {
+			isa = PBXGroup;
+			children = (
+				94E25653227045FB00EA2269 /* AsunNetWork */,
+				94E25652227045FB00EA2269 /* Products */,
+				46EEE8D5BCC2F1ED6196272B /* Pods */,
+				6E6D9FB6A16613651F3E1B7D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		94E25652227045FB00EA2269 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94E25651227045FB00EA2269 /* AsunNetWork.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94E25653227045FB00EA2269 /* AsunNetWork */ = {
+			isa = PBXGroup;
+			children = (
+				94E256662270468B00EA2269 /* NetWork */,
+				94E25654227045FB00EA2269 /* AppDelegate.swift */,
+				94E2565B227045FC00EA2269 /* Assets.xcassets */,
+				94E25660227045FC00EA2269 /* Info.plist */,
+			);
+			path = AsunNetWork;
+			sourceTree = "<group>";
+		};
+		94E256662270468B00EA2269 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				94E256672270468B00EA2269 /* ResponseResult.swift */,
+				94E256682270468B00EA2269 /* AsunNetWorkManager.swift */,
+				94E256692270468B00EA2269 /* Response.swift */,
+				94E2566A2270468B00EA2269 /* Request.swift */,
+				94E2566B2270468B00EA2269 /* AsunRequestProtocol.swift */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94E25650227045FB00EA2269 /* AsunNetWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94E25663227045FC00EA2269 /* Build configuration list for PBXNativeTarget "AsunNetWork" */;
+			buildPhases = (
+				1EB765FBA7B6ECA19335E697 /* [CP] Check Pods Manifest.lock */,
+				94E2564D227045FB00EA2269 /* Sources */,
+				94E2564E227045FB00EA2269 /* Frameworks */,
+				94E2564F227045FB00EA2269 /* Resources */,
+				AC7FE439CF4A4E498A1740C7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsunNetWork;
+			productName = AsunNetWork;
+			productReference = 94E25651227045FB00EA2269 /* AsunNetWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94E25649227045FB00EA2269 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Asun;
+				TargetAttributes = {
+					94E25650227045FB00EA2269 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 94E2564C227045FB00EA2269 /* Build configuration list for PBXProject "AsunNetWork" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94E25648227045FB00EA2269;
+			productRefGroup = 94E25652227045FB00EA2269 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94E25650227045FB00EA2269 /* AsunNetWork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94E2564F227045FB00EA2269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E2565C227045FC00EA2269 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EB765FBA7B6ECA19335E697 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AsunNetWork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC7FE439CF4A4E498A1740C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AsunNetWork/Pods-AsunNetWork-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AsunNetWork/Pods-AsunNetWork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94E2564D227045FB00EA2269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E256702270468B00EA2269 /* AsunRequestProtocol.swift in Sources */,
+				94E2566C2270468B00EA2269 /* ResponseResult.swift in Sources */,
+				94E2566F2270468B00EA2269 /* Request.swift in Sources */,
+				94E25655227045FB00EA2269 /* AppDelegate.swift in Sources */,
+				94E2566D2270468B00EA2269 /* AsunNetWorkManager.swift in Sources */,
+				94E2566E2270468B00EA2269 /* Response.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		94E25661227045FC00EA2269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94E25662227045FC00EA2269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94E25664227045FC00EA2269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0F74E2A128D436460646862 /* Pods-AsunNetWork.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FR3SC3EULN;
+				INFOPLIST_FILE = AsunNetWork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BecomeRich.AsunNetWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94E25665227045FC00EA2269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24AD5FBBF53FF884B9343B0E /* Pods-AsunNetWork.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FR3SC3EULN;
+				INFOPLIST_FILE = AsunNetWork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BecomeRich.AsunNetWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94E2564C227045FB00EA2269 /* Build configuration list for PBXProject "AsunNetWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94E25661227045FC00EA2269 /* Debug */,
+				94E25662227045FC00EA2269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94E25663227045FC00EA2269 /* Build configuration list for PBXNativeTarget "AsunNetWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94E25664227045FC00EA2269 /* Debug */,
+				94E25665227045FC00EA2269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94E25649227045FB00EA2269 /* Project object */;
+}
