@@ -20,8 +20,6 @@ public struct API {
     }
 }
 
-
-
 /// 模型必须遵守这个协议
 public protocol AsunRequestProtocol: HandyJSON {
     static func request(api: API, params: [String: Any]?, result: ((ResponseResult<Self>)->())?)
