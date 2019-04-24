@@ -1,6 +1,0 @@
-framework module Pods_AsunNetWork {
-  umbrella header "Pods-AsunNetWork-umbrella.h"
-
-  export *
-  module * { export * }
-}

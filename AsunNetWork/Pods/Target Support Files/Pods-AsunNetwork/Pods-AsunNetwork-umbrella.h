@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_AsunNetWorkVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_AsunNetWorkVersionString[];
+FOUNDATION_EXPORT double Pods_AsunNetworkVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_AsunNetworkVersionString[];
 
